@@ -23,3 +23,18 @@
     background-position: center;
     background-attachment: fixed;
 }
+.box{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    width: 50%;
+    height: 50%;
+    min-width: 150px;
+    min-height: 150px;
+}
+#back-imagens-multiplas{
+    background-image: url('/pages/imagens/css\ \(1\).png'), url('/pages/imagens/css.png'), url('/pages/imagens/css3.png'), url('/pages/imagens/man.png');
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+    background-position: bottom left,top left,bottom right,top right;
+    background-size: 32px,32px,32px,32px;
+}
