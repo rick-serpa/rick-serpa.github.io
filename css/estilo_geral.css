@@ -1,0 +1,9 @@
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+
+    border:1px dashed black;
+    border-radius: 16px;
+    padding: 8px;
+}
