@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assinatura</title>
+
+    <style>
+        .box {
+            border: 1px solid black;
+            min-height: 150px;
+            width: 90%;
+            margin: 32px;
+            background-image: linear-gradient(lightgray, white);
+            border-radius: 32px;
+            border-top-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            padding: 16px;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        #imagem {
+            width: 120px;
+        }
+
+        #links {
+            margin-top: 0px;
+            margin-left: -32px;
+            width: 100px;
+        }
+
+        #dados {
+            min-width: 300px;
+        }
+
+        .imagem-circular {
+            
+            border-radius: 50%;
+            width: 100px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li img {
+            width: 32px;
+            height: 32px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box flex">
+        <div id="imagem">
+            <img src="data:image/png;base64,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"
+                class="imagem-circular">
+        </div>
+        <div id="links">
+            <ul>
+                <li>                    
+                    <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" title="Telefone">
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=+5547984559234&text=Oi+!+me+responde+aí+que+assinatura+TOP!!!!">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" title="Whatshapp">
+                    </a>
+                </li>
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" title="Instagram">
+                </li>
+            </ul>
+        </div>
+        <div id="dados">
+            <h2>Diretor De Vendas</h2>
+            <p>3330-9210</p>
+        </div>
+    </div>
+
+    <div style="width: 1px; border: 1px solid black;">
+
+        .</div>
+
+
+
+
+</body>
+
+</html>
