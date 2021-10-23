@@ -1,1 +1,0 @@
-# rick-serpa.github.io
