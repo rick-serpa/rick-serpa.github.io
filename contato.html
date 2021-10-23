@@ -29,7 +29,8 @@
             <div class="card">
 
                 <div class="card-body alert-danger">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1034/1034182.png" class="rounded-circle bg-danger p-1" width="48px">>
+                    <img src="https://cdn-icons-png.flaticon.com/512/1034/1034182.png"
+                        class="rounded-circle bg-danger p-1" width="48px">>
                     Contato
                 </div>
             </div>
@@ -58,7 +59,22 @@
         <div class="col">
             <div class="card">
                 <div class="card-body vh-100">
-                    conteudo principal
+                    <form action="mailto:serpahenrique1@hotmail.com?subject=Contato via site github" method="post"
+                        enctype="text/plain">
+
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" class="form-control">
+
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" name="Telefone" class="form-control">
+
+                        <label for="assunto">Assunto</label>
+                        <textarea name="assunto" cols="30" rows="10" class="form-control"></textarea>
+
+                        <button type="reset" class="btn btn-danger">Limpar</button>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+
                 </div>
             </div>
         </div>
@@ -72,6 +88,12 @@
             </div>
         </div>
     </div>
+    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=rubemoliota@gmail.com&amp;su=Contato - via assinatura de email&amp;body=Olá Rubem Tudo bem?"
+    target="_blank">
+    <img border="0" width="16" alt="Github" style="border:0; height:32px; width:32px"
+        src="https://i.ibb.co/WpW9YsX/gmail.png">
+    <div class="ripple-container"></div>
+</a>
 </body>
 
 </html>
